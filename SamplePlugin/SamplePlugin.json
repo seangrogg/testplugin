@@ -1,13 +1,12 @@
 {
-  "Author": "your name here",
-  "Name": "Sample Plugin",
-  "Punchline": "A short one-liner that shows up in /xlplugins.",
-  "Description": "A description that shows up in /xlplugins. List any major slash-command(s).",
+  "Author": "Unnamed",
+  "Name": "Go",
+  "Punchline": "Teleport via simple chat commands",
+  "Description": "Creates /go command for teleporting. Inspired by Pohky's Teleporter plugin. Adds some additional convenience based on real-world use.",
   "InternalName": "samplePlugin",
   "ApplicableVersion": "any",
   "Tags": [
-    "sample",
-    "plugin",
-    "goats"
+    "teleport",
+    "plugin"
   ]
 }

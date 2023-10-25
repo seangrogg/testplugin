@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Numerics;
 using Dalamud.Interface.Internal;
 using Dalamud.Interface.Windowing;
@@ -33,11 +33,11 @@ public class MainWindow : Window, IDisposable
     {
         ImGui.Text($"The random config bool is {this.Plugin.Configuration.SomePropertyToBeSavedAndWithADefault}");
 
-        if (ImGui.Button("Show Settings"))
+/*        if (ImGui.Button("Show Settings"))
         {
             this.Plugin.DrawConfigUI();
         }
-
+*/
         ImGui.Spacing();
 
         ImGui.Text("Have a goat:");
